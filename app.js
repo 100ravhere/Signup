@@ -9,6 +9,10 @@ app.post("/failure",function(req,res)
 {
   res.redirect("/");
 })
+app.post("/success",function(req,res)
+{
+  res.redirect("/");
+})
 app.post("/",function(req,res)
 {
   const firstname = req.body.fname;
